@@ -1,2 +1,2 @@
 # SoundCloud-installer
-SoundCloud installer
+SoundCloud installer.
