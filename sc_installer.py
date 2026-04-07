@@ -10,7 +10,7 @@ def soundcloud_indir(url):
             'preferredcodec': 'mp3', # MP3'e çevir
             'preferredquality': '192', # 192kbps kalitesinde
         }],
-        'outtmpl': '%(title)s.%(ext)s', # Dosya adı: "Şarkı Adı.mp3"
+        'outtmpl': '%(title)s.%(ext)s', 
         'quiet': False,
     }
 
