@@ -7,7 +7,7 @@ def soundcloud_indir(url):
         'format': 'bestaudio/best', 
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',
-            'preferredcodec': 'mp3', # MP3'e çevir
+            'preferredcodec': 'mp3', 
             'preferredquality': '192', 
         }],
         'outtmpl': '%(title)s.%(ext)s', 
