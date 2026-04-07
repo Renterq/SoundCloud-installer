@@ -4,7 +4,7 @@ def soundcloud_indir(url):
     print(f"\n🎧 İndiriliyor: {url}")
 
     ydl_opts = {
-        'format': 'bestaudio/best', # En iyi ses kalitesini al
+        'format': 'bestaudio/best', 
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',
             'preferredcodec': 'mp3', # MP3'e çevir
